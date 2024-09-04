@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-navbar-menu{
+    @apply py-1 cursor-pointer hover:text-gray-800 relative after:lg:bottom-0 after:lg:left-0 after:lg:bg-black after:lg:h-0.5 after:lg:w-0 after:lg:block hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+}
+.top-menu-epx {
+    @apply absolute bg-white w-full top-10 z-50 animate-slide_down text-center ;
+}
+.menu-active{
+    @apply text-gray-900;
+}
