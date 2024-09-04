@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
- <footer className='w-full bg-slate-300 mt-4'>
+ <footer className='w-full bg-slate-300 mt-4qf"?'>
      <div className="h-[350px] w-[95%] xl:w-[65%] mx-auto flex gap-8 pt-28 text-sm flex-wrap sm:flex-nowrap">
   <div className="item1 basis-2/6">
     <div className="uppercase hover:cursor-pointer font-bold mb-4">

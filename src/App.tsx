@@ -8,6 +8,10 @@ import { ProductsDetail } from './page/ProductsDetail'
 import UserProfile from './page/Profile'
 import LayoutAdmin from './component/LayoutAdmin'
 import Dashboard from './admin/Dashboard'
+import TableProducts from './admin/Products'
+import ProductForm from './admin/ProductForm'
+import UserTable from './admin/User'
+import TableOrders from './admin/Order'
 
 function App() {
  
@@ -20,6 +24,11 @@ function App() {
       <Route path='/me' element={<LayoutClient><UserProfile/></LayoutClient>}/>
 
       <Route path='/admin' element={<LayoutAdmin><Dashboard/></LayoutAdmin>}/>
+      <Route path='/admin/products' element={<LayoutAdmin><TableProducts/></LayoutAdmin>}/>
+      <Route path='/admin/user' element={<LayoutAdmin><UserTable/></LayoutAdmin>}/>
+      <Route path='/admin/order' element={<LayoutAdmin><TableOrders/></LayoutAdmin>}/>
+      <Route path='/admin/products/add' element={<LayoutAdmin><ProductForm/></LayoutAdmin>}/>
+
 
    </Routes>
     
